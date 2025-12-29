@@ -3,7 +3,7 @@ kind: Pod
 metadata:
   name: pod-1
 spec:
- containers:
+  containers:
   - name: nginx
     image: nginx
     imagepullpolicy: Always

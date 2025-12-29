@@ -4,6 +4,6 @@ metadata:
   name: pod-1
 spec:
  containers:
- - name: nginx
-   image: nginx
-   imagepullpolicy: Always
+  - name: nginx
+    image: nginx
+    imagepullpolicy: Always
